@@ -1,32 +1,33 @@
 {
-  "proxy": "http://localhost:5000",
-  "name": "data_vis2020",
+  "name": "mern-vis",
   "version": "1.0.0",
-  "description": "Data Viz App",
-  "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "concurrently": "^5.2.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.9.16"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
+  "description": "Data Viz Build with MERN stack",
+  "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": " nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ranimbenameur12/Data_Vis2020.git"
   },
-  "author": "Ranim Benameur",
+  "author": "Ranimbenameur",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ranimbenameur12/Data_Vis2020/issues"
   },
-  "homepage": "https://github.com/Ranimbenameur12/Data_Vis2020#readme"
+  "homepage": "https://github.com/Ranimbenameur12/Data_Vis2020#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
